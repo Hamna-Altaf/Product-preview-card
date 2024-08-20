@@ -1,0 +1,101 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    width: 1440px;
+
+}
+.card {
+    display: flex;
+    width: 570px;
+    height: 430px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    padding-right: 20px;
+    margin-top: 45px;
+
+}
+.text {
+   text-align: start;
+   padding-left: 25px;
+   padding-top: 10px;
+}
+.image{
+    object-fit: cover;
+    
+}
+.title{
+    padding-top: 10px;
+    font-size: 11px;
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    color : hsl(228, 12%, 48%);
+    font-weight: 500;
+}
+.perfume-name{
+    font-size: 28px;
+    width: 80%;
+    display: block;
+    color: black;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.description {
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    font-weight:500;
+    width: 95%;
+    line-height: 22px;
+}
+.price {
+    font-size: 28px;
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    margin-top: 20px;
+    font-weight: 700;
+    display: inline;
+    
+}
+.old-price {
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-decoration: line-through;
+    display: inline;
+    margin-left: 20px;
+    vertical-align: 8px;
+}
+.add-to-cart-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 45px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.1s;
+    margin-top: 30px;
+}
+.add-to-cart-button:active {
+    background-color: hsl(158, 69%, 24%);
+}
+.add-to-cart-logo {
+    margin-right: 10px;
+}
+.button-text {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
